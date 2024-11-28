@@ -1,9 +1,11 @@
-@page {
+@page
+{
     size: A4;
     margin: 0;
 }
 
-body {
+body
+{
     background-image: url("back.jpg");
     background-size: cover;
     background-position: center;
@@ -11,13 +13,15 @@ body {
     font-style: italic;
 }
 
-.container {
+.container
+{
     margin: auto;
     padding: 30px;
     max-width: 1200px;
 }
 
-.columns {
+.columns
+{
     column-count: 3;
     column-gap: 40px;
     font-size: 1.2em;
@@ -26,14 +30,16 @@ body {
     padding: 20px 0;
 }
 
-header {
+header
+{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     border-bottom: 3px solid #4a4a4a;
 }
 
-.title {
+.title
+{
     width: 70%;
     text-align: center;
     font-family: "Great Vibes", cursive;
@@ -43,49 +49,58 @@ header {
     color: #000;
 }
 
-h2 {
+h2
+{
     font-size: 2em;
     text-align: center;
     margin-top: 0;
     color: #000;
 }
 
-.date {
+.date
+{
     text-align: center;
     margin: auto;
 }
 
-.color {
+.color
+{
     color: crimson;
 }
 
-.quote {
+.quote
+{
     padding: 10px 20px;
     border-left: 8px solid #d5d5d5;
     font-family: "Lucida Fax", cursive;
     margin: 0;
     break-inside: avoid;
 }
-.quote p {
+.quote p
+{
     margin-top: 0;
 }
-.quote cite {
+.quote cite
+{
     font-family: "Times New Roman", cursive;
 }
 
-figure {
+figure
+{
     display: block;
     break-inside: avoid;
     margin: 5px;
     width: 100%;
 }
 
-figure img {
+figure img
+{
     width: 80%;
     max-width: 350px;
 }
 
-.start-of-article::first-letter {
+.start-of-article::first-letter
+{
     font-size: 3em;
     margin-right: 0.1em;
     line-height: 1;
@@ -93,37 +108,45 @@ figure img {
     color: crimson;
 }
 
-.vertical {
+.vertical
+{
     writing-mode: vertical-lr;
     display: inline-block;
     text-orientation: upright;
 }
 
-@keyframes fade {
-    from {
+@keyframes fade
+{
+    from
+    {
         opacity: 1;
     }
-    to {
+    to
+    {
         opacity: 0;
     }
 }
 
-.disappearance {
+.disappearance
+{
     animation: fade 3s infinite;
     width: 200px;
 }
 
-.border {
+.border
+{
     border: 2px solid #000;
     padding: 5px;
     margin-top: 10px;
 }
 
-dd {
+dd
+{
     margin: 5px 0 0;
 }
 
-footer {
+footer
+{
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
@@ -131,18 +154,23 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 1090px) {
-    .columns {
+@media (max-width: 1090px)
+{
+    .columns
+    {
         column-count: 2;
     }
 }
 
-@media (max-width: 875px) {
-    .columns {
+@media (max-width: 875px)
+{
+    .columns
+    {
         column-count: 1;
     }
 
-    .title {
+    .title
+    {
         font-size: 4em;
     }
 }
